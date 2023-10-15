@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión de Zona Horaria</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <h1>Conversión de Zona Horaria</h1>
+    <p>Ingresa una fecha y hora en UTC+3:</p>
+    <input type="text" id="datetimeInput" placeholder="dd-mm-yyyy hh:mm:ss">
+    <button onclick="convertTime()">Convertir</button>
+    <p>Selecciona la zona horaria de destino:</p>
+    <select id="timezoneSelect">
+        <option value="UTC-5">UTC-5</option>
+        <option value="UTC-6">UTC-6</option>
+        <option value="UTC-7">UTC-7</option>
+        <option value="UTC-4">UTC-4</option>
+        <option value="UTC-3">UTC-3</option>
+    </select>
+    <p>Resultado:</p>
+    <div id="result"></div>
+<footer class="watermark">
+        <p>&copy; 2023 Jonas. Todos los derechos reservados.</p>
+        <p>By Jonas</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

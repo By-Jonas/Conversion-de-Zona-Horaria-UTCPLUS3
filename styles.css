@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2372a3;
+}
+
+#result {
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Estilos para la marca de agua en el footer */
+.watermark {
+    position: relative;
+}
+
+.watermark{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+    text-align: center;
+    padding: 5px;
+    color: #333; /* Color del texto */
+    font-size: 14px;
+}
+
